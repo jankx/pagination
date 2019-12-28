@@ -1,0 +1,19 @@
+{
+    "name": "jankx/pagination",
+    "description": "The WordPress pagination support multi styles: number, infinite loop, load more",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Puleeno Nguyen",
+            "email": "puleeno@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Jankx\\Pagination\\": "src/"
+        }
+    }
+}
