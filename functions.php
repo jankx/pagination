@@ -4,7 +4,7 @@ function jankx_paginate() {
     ob_start();
     echo '<div class="jankx-pagination">';
     echo paginate_links(array(
-        'prev_text' => jankx_template('common/pagination/next', array(), null, false),
+        'prev_text' => jankx_template('common/pagination/prev', array(), null, false),
         'next_text' => jankx_template('common/pagination/next', array(), null, false),
     ));
     echo '</div>';
